@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83758493278",
+    "project_id": "weather-station-application",
+    "storage_bucket": "weather-station-application.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83758493278:android:d2e7b96df77bd61b568ecf",
+        "android_client_info": {
+          "package_name": "com.example.weather_station_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCgQHF7Cdghap8bg6UtlVrB7RpJRjmujw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
