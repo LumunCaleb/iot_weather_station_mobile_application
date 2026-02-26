@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import 'weather_data_model.dart';
 
 class GoogleSheetsService {
-  static const String _apiKey = 'AIzaSyCDoNiNs6iDh-1KERPDtXWagtQ4TRlqHyE';
+  // static const String _apiKey = 'AIzaSyCDoNiNs6iDh-1KERPDtXWagtQ4TRlqHyE';
   static const String _scriptId = '1lbGCOmPlX4HXzNW2WDfocolRO6E28uFGTNeeH_yBIbo';
   static const String _sheetName = 'Sheet1';
 
