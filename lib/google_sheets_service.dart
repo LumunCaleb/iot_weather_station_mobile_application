@@ -7,8 +7,12 @@ import 'package:http/http.dart' as http;
 import 'weather_data_model.dart';
 
 class GoogleSheetsService {
+<<<<<<< HEAD
   static final String _apiKey = dotenv.env['GOOGLE_SHEETS_API_KEY'] ?? '';
   // static const String _apiKey =
+=======
+  // static const String _apiKey = ;
+>>>>>>> 80066c7defc6695f4e8db838687016a4de44e03d
   static const String _scriptId = '1lbGCOmPlX4HXzNW2WDfocolRO6E28uFGTNeeH_yBIbo';
   static const String _sheetName = 'Sheet1';
 
