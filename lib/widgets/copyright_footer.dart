@@ -10,7 +10,7 @@ class CopyrightFooter extends StatelessWidget {
       child: Align(
         alignment: Alignment.center,
         child: Text(
-          '(c)Lumun Caleb 2025',
+          '',
           style: TextStyle(
             fontSize: 12,
             color: Colors.grey[600],

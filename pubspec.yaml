@@ -14,16 +14,26 @@ dependencies:
   flutter_spinkit: ^5.1.0
   cupertino_icons: ^1.0.8
   csv: ^6.0.0
+  flutter_dotenv: ^5.1.0
 
-  firebase_core: ^2.24.0
-  firebase_auth: ^4.11.0
-  google_sign_in: ^6.1.5  # if you want Google Sign-In
-  flutter_signin_button: ^2.0.0  # for auth provider buttons
+#  firebase_core: ^2.24.0
+#  firebase_auth: ^4.11.0
+#  google_sign_in: ^6.1.5  # if you want Google Sign-In
+#  flutter_signin_button: ^2.0.0  # for auth provider buttons
 
 dev_dependencies: # Fixed indentation (no space before)
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0 # Fixed indentation (2 spaces)
 
+
+
 flutter:
   uses-material-design: true
+  #Tell git that the .env is an asset so it can be packaged with the app
+  assets:
+    - .env
+
+
+
+
